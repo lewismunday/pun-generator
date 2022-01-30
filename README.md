@@ -18,6 +18,9 @@ Project is created with:
 Project is: _in progress_ 
 
 
+## To Do
+
+- Fix issue when one category is selected, it remains that category until page refreshed
 
 ## Acknowledgements
 
