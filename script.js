@@ -22,3 +22,9 @@ const foodPuns = {
 }
 
 //console.log(randomNumber)
+
+const generator = input => {
+    console.log('Yipee!')
+}
+
+generator('blah')
