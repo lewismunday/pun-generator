@@ -1,7 +1,7 @@
 
 //Sets variables for called upon intiators
-
-const punTypes = ['Bad Puns', 'Music Puns', 'Food Puns']
+const punTypes = ['Bad Puns', 'Music Puns', 'Food Puns'];
+randomSelection = Math.floor(Math.random() * punTypes.length);
 
 //Creating object for puns
 
@@ -17,10 +17,11 @@ const puns = {
 const generator = input => {
     const findIndex = punTypes.indexOf(input)
     if (input == punTypes[findIndex]){
+        console.log(`Your pun type is: ${input}.`)
         console.log(puns[input][Math.floor(Math.random() * puns[input].length)])
     } else {
         console.log('Please enter correct pun type')
     }
 }
 
-generator('Food Puns')
+generator(punTypes[randomSelection])
