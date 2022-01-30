@@ -5,7 +5,7 @@ This project generates a new pun each time the 'Generate' button is clicked.
 
 
 ## Technologies
----
+
 Project is created with:
 * JavaScript
 * HTML
@@ -13,22 +13,14 @@ Project is created with:
 
 
 
-## Screenshots
----
-![Example screenshot](./img/screenshot.png)
-
-
-
-
 ## Project Status
----
+
 Project is: _in progress_ 
 
 
 
-
 ## Acknowledgements
----
+
 
 - This project was based on a portfolio project on [Codecademy](https://www.codecademy.com).
 
