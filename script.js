@@ -1,7 +1,7 @@
 
 //Sets variables for called upon intiators
 const punTypes = ['Bad Puns', 'Music Puns', 'Food Puns'];
-const randomSelection = Math.floor(Math.random() * punTypes.length);
+const randomSelection = Math.floor(Math.random() * 3);
 
 //Creating object for puns
 
@@ -15,6 +15,7 @@ const puns = {
 //Generator for puns based on input
 
 const generator = input => {
+    input = punTypes[Math.floor(Math.random() * 3)]
     let x = document.getElementById("randomPun")
     let y = document.getElementById("punType")
     const findIndex = punTypes.indexOf(input)

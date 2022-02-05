@@ -12,8 +12,14 @@
     <h1>Random Pun Generator</h1>
 
     <p>Click the button to select a random pun!</p>
-    <div id="punType">Pun Type: Not Selected</div>
-    <div id="randomPun">Random Pun!</div>
+
+    <div id="punstage" class="stage">
+        <span class="label" id="punType">Pun Type: Not Selected</span>
+        
+        <div class="column" id="randomPun">Random Pun!</div>
+    </div>
+
+
     <button class="btn default" onclick="generator(punTypes[randomSelection])">Generate</button>
 
   </body>
